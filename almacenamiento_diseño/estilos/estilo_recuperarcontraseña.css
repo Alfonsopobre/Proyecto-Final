@@ -1,0 +1,84 @@
+body{
+    background-image: url(../imagenes/summer1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.panel{
+    background-color: #0e7fe9e7;
+    border: 2px solid #4741d7;
+    color:white;
+    width: 1137px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    object-position:center ;
+    text-align: center;
+}
+.panel-header{
+    background-color: rgba(30, 30, 114, 0.829);
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color:#0059ce;
+    border: 2px solid #0d06e4;
+    color:white;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+}
+input[type=submit]{
+    margin-top: 15px;
+    height: 35px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+}
+input[type=submit]:hover{
+    background-color: rgb(47, 113, 255);
+}
+input[type=text], input[type=date]{
+    height: 35px;
+    width: 200px;
+    color: white;
+}
+
+input::placeholder{
+    font-style: italic;
+    color: white;
+}
+h2{
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	background-clip: text;
+	-webkit-background-clip: text;
+	display: inline-block;
+}
+form h3{
+    background-color:#0059ce;
+    border-radius: 15px;
+    border: 2px solid #0d06e4;
+    width: auto;
+    height: 35px;
+}
+p{
+    font-size: 18px;
+}
+
+input[type=text]:hover{
+    border: 2px solid rgb(1, 1, 124) ;
+}
+input[type=date]:hover{
+    border: 2px solid rgb(1, 1, 124) ;
+}
+label{
+    width: 320px;
+}

@@ -1,0 +1,383 @@
+body{
+    background-image: url(../imagenes/summer1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+#navbar {
+    background-color: rgba(53, 70, 221, 0.836);
+    height: 70px;
+    box-shadow: rgb(90, 88, 88) 0px 8px 24px;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    background-color: rgb(137, 137, 245);
+    margin-left: 75px;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 190px;
+    border-radius: 15px;
+    margin-top: 7px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+a{
+    color:whitesmoke;
+    font: bolder;
+    
+}
+/*** ESTILOS BOTÓN GROW ELLIPSE ***/
+.ov-btn-grow-ellipse {
+    background: #fff; /* color de fondo */
+    color: #4741d7; /* color de fuente */
+    border: 2px solid #4741d7; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 15px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    font-weight: 900;
+}
+.ov-btn-grow-ellipse:hover {
+    color: #fff;/* color de fuente hover */
+    font-weight: 900;
+}
+.ov-btn-grow-ellipse::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+}
+.ov-btn-grow-ellipse:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+}
+.active {
+    background:#092e5b; /* color de fondo */
+    color: white; /* color de fuente */
+    font-weight: 900;
+    border: 2px solid #4741d7; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 15px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+.active:hover{
+        color: #fff;/* color de fuente hover */
+        font-weight: 900;
+}
+.active::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    font-weight: 900;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+}
+.active:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+}
+#log{
+    height: 192px;
+    width: 192px;
+    position: center;
+    align-items:center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 150px;
+}
+.panel{
+    background-color: #0e7fe9e7;
+    margin-right: 20px;
+    align-items: center;
+    width: 600px;
+    border: 2px solid #4741d7;
+    color:white;
+}
+h1{
+    font-weight: 1000;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+#log{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 50%;
+    border: 2px solid #4741d7;
+    box-shadow: rgb(90, 88, 88) 0px 8px 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+#log:hover{
+  -webkit-filter: invert(100%);
+}
+#logo{
+    width: 500px;
+    margin-left: 100px;
+    height: 214px;
+}
+
+.wrapper {
+	text-align: center;
+}
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "Josefin Sans", sans-serif;
+	background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 1.5s linear infinite;
+	display: inline-block;
+}
+
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+.panel-header{
+    background-color: rgba(30, 30, 114, 0.829);
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	-webkit-background-clip: text;
+	display: inline-block;
+}
+#img2{
+    float:right;
+    height: 150px;
+    width: 175px;
+    border-radius: 15px;
+}
+#img1{
+    float:right;
+    height: 150px;
+    width: 175px;
+    border-radius: 15px;
+    shape-margin: 10px;
+}
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti|Open+Sans');
+.sea {
+    border: 2px solid #4741d7;
+}
+
+.LightWaves {
+  animation: lightwaves 2s infinite;
+  position: relative;
+}
+
+@keyframes lightwaves {
+    0%,100% { transform: translate(0,0); }
+    25%     { transform: translate(5px,5px); transform: scale(1.05); }
+    50%     { transform: translate(25px, 5px); }
+    75%     { transform: translate(12px,10px); transform: scale(1.05); }
+}
+
+.DarkWaves {
+  animation: darkwaves 3.8s infinite;
+}
+
+@keyframes darkwaves {
+    0%,100% { transform: translate(0,0); }
+    25%     { transform: translate(25px, 5px); transform: scale(1.05); }
+    50%     { transform: translate(12px,10px); }
+    75%     { transform: translate(5px,5px); }
+}
+
+.WhiteWaves {
+  animation: whitewaves 4s alternate ease infinite;
+}
+
+@keyframes whitewaves {
+    0% { transform: translate(0,25px); }
+    100%     { transform: translate(25px,35px); }
+}
+#olas{
+    width: 500px;
+    margin-left: 102px;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+#logo_letra{
+    color: rgb(8, 8, 119);
+    margin-left: 50px;
+}
+#title {
+    background-color: rgb(41, 149, 238);
+    border: 2px solid #4741d7;
+}
+h3{
+    color:white;
+    margin-left: 50px;
+}
+#foot2 {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+#foot1{
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right: 120px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+#foot3 {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    background-color: rgba(16, 58, 136, 0.76);
+}
+#contactanos{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.row.col-lg-4{
+    background-size: 700px;
+}
+#infor{
+    padding-left: 75px;
+    margin-top: -7px;
+}
+#reds{
+    margin-right: 25px;
+}
+#fantasma {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -64.5px;
+    margin-top: -85.5px;
+  }
+  
+  .ghost {
+    animation: float 3s ease-out infinite;
+  }
+  
+  @keyframes float {
+    50% {
+       transform: translate(0, 20px);
+    }
+  }
+  .shadowFrame {
+    width: 130px;
+    margin-top: 15px;
+  }
+  .shadow {
+    animation: shrink 3s ease-out infinite;
+    transform-origin: center center;
+    ellipse {
+      transform-origin: center center;
+    }
+  }
+  
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
+@media only screen and (min-width:320px) and (max-width:1200px){
+    #navbar{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .panel{
+        height: 100%;
+        width: 100%;
+    }
+    li{
+        margin-left: 30%;
+    }
+    #logo{
+        height: 100%;
+        width: 100%;
+        margin-left: 0px;
+    }
+    #olas{
+        height: 100%;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #log{
+        margin-right: 25%;
+    }
+    #infor{
+        margin-left: -5% ;
+    }
+    #contactanos{
+        transform: translateX(-25%);
+    }
+    #foot3{
+        margin-left: -25%;
+    }
+}
+
+

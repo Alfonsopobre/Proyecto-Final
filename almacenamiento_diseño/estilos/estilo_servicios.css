@@ -1,0 +1,282 @@
+body{
+    background-image: url(../imagenes/summer1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+#navbar {
+    background-color: rgba(53, 70, 221, 0.836);
+    height: 70px;
+    box-shadow: rgb(90, 88, 88) 0px 8px 24px;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    background-color: rgb(137, 137, 245);
+    margin-left: 75px;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 190px;
+    border-radius: 15px;
+    margin-top: 7px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+a{
+    color:whitesmoke;
+    font: bolder;
+    
+}
+/*** ESTILOS BOTÓN GROW ELLIPSE ***/
+.ov-btn-grow-ellipse {
+    background: #fff; /* color de fondo */
+    color: #4741d7; /* color de fuente */
+    border: 2px solid #4741d7; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 15px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    font-weight: 900;
+}
+.ov-btn-grow-ellipse:hover {
+    color: #fff;/* color de fuente hover */
+    font-weight: 900;
+}
+.ov-btn-grow-ellipse::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+}
+.ov-btn-grow-ellipse:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+}
+.active {
+    background:#092e5b; /* color de fondo */
+    color: white; /* color de fuente */
+    font-weight: 900;
+    border: 2px solid #4741d7; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 15px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+.active:hover{
+    color: #fff;/* color de fuente hover */
+    font-weight: 900;
+}
+.active::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    font-weight: 900;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+}
+.active:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+}
+.panel{
+    background-color: #0e7fe9e7;
+    align-items: center;
+    border: 2px solid #4741d7;
+    color:white;
+    width: 1137px;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	-webkit-background-clip: text;
+	display: inline-block;
+}
+.panel-header{
+    background-color: rgba(30, 30, 114, 0.829);
+    text-align: center;
+}
+.panel-body{
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color:white;
+    margin-left: 50px;
+}
+#foot2 {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top:0px;
+}
+#foot1{
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right: 120px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top:0px;
+}
+#foot3 {
+    height: 50px;
+    width: 50px;
+    margin-top:0px;
+    float: right;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    margin-left: 0px;
+}
+footer{
+    text-align: center;
+    background-color: rgba(16, 58, 136, 0.76);
+    margin-top: 10.3%;
+}
+#contactanos{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#infor{
+    padding-left: 75px;
+    margin-top: -7px;
+}
+#reds{
+    margin-right: 25px;
+}
+img{
+    height: 150px;
+    width: 175px;
+    border-radius: 15px;
+    margin-left: 100px;
+    border: 2px solid #4741d7;
+    margin-top: 10px;
+}
+.container-row{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.card {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  height: 170px;
+  width: 300px;
+  margin-top: -15px;
+  /*
+  Each "card" is set to 600x400px because that is the size of  the image, adjust as needed. Make sure the overflow is set to hidden or else when the img scales it will clip with the other images.
+  */
+}
+
+.img-container {
+  transition: transform .1s ease;
+}
+
+.img-container:hover {
+  transform: scale(1.1);
+  /*
+  Change the scale value as much as you want to change the amount of zoom on hover.
+  */
+}
+
+.card img {
+  opacity: .8;
+  transform: translate(0,0);
+  /*
+  Change the opacity value to change how "faded" you want the image to appear when it is not hovered.
+  */
+  transition: opacity .25s ease-in-out;
+}
+
+.card img:hover {
+  opacity: 1;
+}
+#cuenta{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+hr{
+    width: 1135px;
+    height: 10px;
+    background-color: rgba(30, 30, 114, 0.829);
+    color:rgba(30, 30, 114, 0.829) ;
+    margin-left: -15px;
+}
+.col-lg-4{
+    align-items:center;
+    object-position: center;
+    justify-items: center;
+}
+#carta{
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  height: 225px;
+  width: 325px;
+}
+@media only screen and (min-width:320px) and (max-width:1200px){
+    #navbar{
+        height: 100%;
+        width: 100%;
+    }
+    .panel{
+        height: 100%;
+        width: 100%;
+    }
+    li{
+        margin-left: 30%;
+    }
+    #log{
+        margin-right: 20%;
+    }
+    #infor{
+        margin-left: -5% ;
+    }
+    #contactanos{
+        transform: translateX(-25%);
+    }
+    #foot3{
+        margin-left: -25%;
+    }
+}
